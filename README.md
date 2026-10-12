@@ -41,4 +41,6 @@ The review also considered possible applications in visual recognition and robot
 
 Research code is only useful to a new team when the execution path is explicit: compatible versions, available data and checkpoints, documented inputs, and an end-to-end example. The setup attempts made those requirements concrete and helped me distinguish an interesting paper from a result that I could independently verify.
 
-The original documents contain academic contact information and third-party material, so this repository presents a concise, original account of my work instead of uploading the raw reports or copied repositories.
+## Academic report
+
+The [original research report](report.pdf) is included as background reading. It contains illustrative methods and a university email address; it does not document trained models, original implementations, or verified benchmark results. The third-party repositories discussed are linked above rather than copied here.
