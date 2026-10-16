@@ -44,6 +44,12 @@ The review also considered possible applications in visual recognition and robot
 
 Research code is only useful to a new team when the execution path is explicit: compatible versions, available data and checkpoints, documented inputs, and an end-to-end example. The setup attempts made those requirements concrete and helped me distinguish an interesting paper from a result that I could independently verify.
 
+On a personal level, I found knowledge distillation particularly interesting and enjoyed exploring its potential applications. I was especially drawn to the idea that, once a strong teacher model has already been trained, a smaller student can learn to reproduce much of its behaviour without repeating the same expensive training process. The possibility of retaining useful performance in a lighter model that is easier to deploy made the approach especially appealing.
+
+Cross-modal distillation was even more interesting to me: the idea that knowledge learned through one modality can be transferred to a model operating on a completely different modality opens up many possible directions for real-world systems, particularly when some sources of information are expensive, unavailable or impractical at deployment time.
+
+The collaboration ended somewhat abruptly because it was carried out as an optional departmental project alongside my degree and the academic year came to an end. I did not continue the work immediately afterwards, but I still find the topic compelling and would not rule out revisiting it now, with roughly two more years of technical background and a much stronger foundation in computer engineering and applied AI.
+
 ## Academic report
 
 The [original research report](report.pdf) is included as background reading. It was an informal internal exploration intended to support discussion within the Computer Vision research line. It contains illustrative methods and a university email address; it does not document trained models, original implementations, or verified benchmark results. The third-party repositories discussed are linked above rather than copied here.
