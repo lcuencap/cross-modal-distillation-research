@@ -2,6 +2,8 @@
 
 Research work carried out by Laura Cuenca during a university departmental collaboration. The goal was to understand how knowledge distillation can transfer information between modalities in computer vision and to assess how readily selected open-source research implementations could be reproduced.
 
+This was an **informal exploratory report prepared for the director of the university's Computer Vision research line**. Its purpose was to give the group an initial overview of cross-modal knowledge distillation and help identify how these techniques might be relevant to several of the research projects they were already working on. It was intended as a starting point for discussion and technical exploration, not as a formal research paper or benchmark study.
+
 **My contribution:** literature review, comparison of techniques, cloning repositories, and attempts to configure and run them. I did **not** implement the models, train new models, or produce benchmark results. The repositories reviewed belong to their original authors; their code is not included here.
 
 ## Questions explored
@@ -9,6 +11,7 @@ Research work carried out by Laura Cuenca during a university departmental colla
 - What can a teacher model transfer to a student: final responses, intermediate features, or relationships between examples?
 - What changes when teacher and student use different modalities, such as vision, audio, text, or sketches?
 - Which practical details are needed to reproduce a research implementation: data, checkpoints, dependency versions, configuration files, and scripts?
+- Which of these approaches could be potentially useful across the Computer Vision research line's existing projects?
 
 ## Reproducibility notes
 
@@ -35,7 +38,7 @@ flowchart LR
     E --> F[Student training signal]
 ```
 
-The review also considered possible applications in visual recognition and robotics. These are research directions discussed in the report, not implemented applications in this repository.
+The review also considered possible applications in visual recognition and robotics, with the broader goal of identifying directions that could be useful for the research line's existing work. These are research directions discussed in the report, not implemented applications in this repository.
 
 ## What this work taught me
 
@@ -43,4 +46,4 @@ Research code is only useful to a new team when the execution path is explicit: 
 
 ## Academic report
 
-The [original research report](report.pdf) is included as background reading. It contains illustrative methods and a university email address; it does not document trained models, original implementations, or verified benchmark results. The third-party repositories discussed are linked above rather than copied here.
+The [original research report](report.pdf) is included as background reading. It was an informal internal exploration intended to support discussion within the Computer Vision research line. It contains illustrative methods and a university email address; it does not document trained models, original implementations, or verified benchmark results. The third-party repositories discussed are linked above rather than copied here.
